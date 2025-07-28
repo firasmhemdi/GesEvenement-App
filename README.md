@@ -13,8 +13,10 @@ Avant de configurer le projet, assurez-vous d'avoir les éléments suivants inst
 1️⃣ **Clonez le dépôt**
 git clone https://github.com/firasmhemdi/GesEvenement-App.git
 cd GesEvenement-App
+
 2️⃣ Installez les dépendances
 npm install
+
 3️⃣ Configurez les variables d'environnement
 Créez un fichier .env dans le répertoire racine :
 
