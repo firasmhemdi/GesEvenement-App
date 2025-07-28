@@ -11,7 +11,6 @@ Avant de configurer le projet, assurez-vous d'avoir les éléments suivants inst
 
 ⚙️ **Instructions de configuration**
 1️⃣ **Clonez le dépôt**
-```bash
 git clone https://github.com/firasmhemdi/GesEvenement-App.git
 cd GesEvenement-App
 2️⃣ Installez les dépendances
@@ -26,7 +25,6 @@ npm run dev
 Le serveur de développement se lancera. Visitez http://localhost:3000 pour voir l'application.
 🧩 Structure du projet
 
-Copier
 gesevenement-app/
 ├── backend/               # Code backend
 ├── frontend/              # Code frontend
