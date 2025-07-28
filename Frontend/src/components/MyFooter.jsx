@@ -4,21 +4,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const MyFooter = () => {
   const accounts = [
-    {
-      name: "Adem Meddeb",
-      github: "https://github.com/Adem-meddeb",
-      linkedin: "https://www.linkedin.com/in/adem-meddeb-750ab5261/"
-    },
-    {
-      name: "Assia Ferjani",
-      github: "https://github.com/assiaferjani",
-      linkedin: "https://www.linkedin.com/in/assia-ferjani-066589330/?fbclid=IwY2xjawHNZR5leHRuA2FlbQIxMAABHW-NTOQvjOWfutOwVKAPhq-iNK7t2Y2FYjzwB6Lekou8cY-hlBDTZtU7Bw_aem_D1-dtMgxGNlMSfHV8xNZQA"
-    },
-    {
-      name: "Ines MK",
-      github: "https://github.com/Ines55MK",
-      linkedin: "https://www.linkedin.com/in/makhlouf-ines-5a44b02a6/?fbclid=IwY2xjawHNZPhleHRuA2FlbQIxMAABHQBaOkPBlAvP4OOAr7S9RHL8NKrihZZBfhZEYLYS8J8n-JCCcIItV5kqWA_aem_rhbyXnhe-9vwZjZv2B6mhQ"
-    },
+   
     {
       name: "Firas Mhemdi",
       github: "https://github.com/firasmhemdi",
@@ -29,7 +15,7 @@ const MyFooter = () => {
   return (
     <Footer bgDark className="mt-20 rounded-tl-md">
       <div className="w-full px-4 lg:px-24">
-        <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
+        <div className="w-full bg-blue-300 px-4 py-2 sm:flex sm:items-center sm:justify-between left-0">
           <Footer.Copyright href="#" by="Online Events™ " year={2024} />
           <div className="mt-4 flex flex-col sm:flex-row sm:items-center sm:space-x-6 sm:mt-0 sm:justify-center">
             {accounts.map((account, index) => (

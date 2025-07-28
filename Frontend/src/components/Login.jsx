@@ -17,6 +17,7 @@ const Login = () => {
       const { token, user } = response.data;
       login(user, token);
       navigate('/');
+      window.location.reload();
     } catch (err) {
       setError('Identifiants invalides');
     }
